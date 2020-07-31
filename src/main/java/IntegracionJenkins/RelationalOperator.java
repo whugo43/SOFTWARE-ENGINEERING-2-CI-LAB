@@ -39,4 +39,9 @@ public class RelationalOperator {
             System.out.println("The height is INCORRECT");
         }
     }
+    
+    public boolean notEqual(int num1, int num2) {
+    	return num1 != num2;
+    }
+    
 }
