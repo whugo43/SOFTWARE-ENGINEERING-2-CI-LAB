@@ -31,14 +31,14 @@ public class RelationalOperatorTest {
 	}
 	
 	@Test
-	public void notEqualTest1() {
+	public void isGoodHeigth1() {
 		RelationalOperator tester = new RelationalOperator();
-		assertTrue(tester.notEqual(3, 1));
+		assertTrue(tester.goodHeight(9,6,13));
 	}
 	
 	@Test
-	public void notEqualTest2() {
+	public void isGoodHeigth2() {
 		RelationalOperator tester = new RelationalOperator();
-		assertFalse(tester.notEqual(2, 2));
+		assertFalse(tester.goodHeight(9,6,6));
 	}
 }
