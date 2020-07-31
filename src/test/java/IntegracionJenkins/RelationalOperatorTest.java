@@ -35,15 +35,5 @@ public class RelationalOperatorTest {
 		RelationalOperator tester = new RelationalOperator();
 		assertTrue(tester.goodHeight(7,5,15));
 	}
-	@Test
-	public void isGoodHeigth2() {
-		RelationalOperator tester = new RelationalOperator();
-		assertTrue(tester.goodHeight(12,5,14));
-	}
 	
-	@Test
-	public void isGoodWidth1() {
-		RelationalOperator tester = new RelationalOperator();
-		assertTrue(tester.goodWidth(10,2,10));
-	}
 }
